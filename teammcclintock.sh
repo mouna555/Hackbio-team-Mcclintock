@@ -32,16 +32,13 @@ do
 node $file >> TEAMMCCLINTOCK.csv
 done
 
-for file in "$wd/C#_scripts/*"
+for file in "$wd/C#_scripts/*.cs"
 do
-if [["${file:-3:}" == ".cs" ]]
-then
 mcs $file
-fi
-if [["${file:-3:}" == ".exe" ]]
-then
+done
+for file in "$wd/C#_scripts/*.exe"
+do
 mono $file >> TEAMMCCLINTOCK.csv
-fi
 done
 
 # cat *.txt > TEAMMCCLINTOCK.csv
