@@ -1,10 +1,9 @@
-def personal_details():
-    name = "Obiora Precious Chidera"
-    email = "obiorapc@gmail.com"
-    slack_username = "@Chidera"
-    biostack = "Genomics"
-    twitter_handle = "@deraobi1"
-    print(name+','+email+','+slack_username+','+biostack+','+twitter_handle+','+str(name_loop(slack_username, twitter_handle)))
+name = "Obiora Precious Chidera"
+email = "obiorapc@gmail.com"
+slack_username = "@Chidera"
+biostack = "Genomics"
+twitter_handle = "@deraobi1"
+
 
 #loop approach
 def name_loop(str_3, str_5):
@@ -14,5 +13,4 @@ def name_loop(str_3, str_5):
             h_distance += 1
     return h_distance    
 
-
-personal_details()
+print(name+','+email+','+slack_username+','+biostack+','+twitter_handle+','+str(name_loop(slack_username, twitter_handle)))
