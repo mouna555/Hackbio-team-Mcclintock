@@ -41,7 +41,7 @@ Nigeria<br>
 
 5.) @Benson<br>
 Joy Olu-Benson<br>
-joyoolubenson@yahoo.com<br>
+joyolubenson@yahoo.com<br>
 Medicinal chemistry<br>
 Nigeria<br>
 
