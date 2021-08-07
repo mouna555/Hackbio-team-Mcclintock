@@ -27,6 +27,6 @@
 
 
  
-echo "$userNames[0],$userMails[0],$userSlkname[0],$bioStack[0],$twitHandle[0], $hamLength[0]";
+echo "$userNames[0], $userMails[0], $userSlkname[0], $bioStack[0], $twitHandle[0], $hamLength[0]";
 
 ?>

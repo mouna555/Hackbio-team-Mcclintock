@@ -11,10 +11,10 @@ sub ham{
   $sum=$sum;
   return $sum;
 }
-$name = "Oluwatosin Adewale";
-$email = "oluwatosinadewale@gmail.com";
-$slack_username = "@Halton";
-$biostack = "Drug development";
-$twitter_username = "@Halton";
+$name = "Oluwatosin Adewale, ";
+$email = "oluwatosinadewale@gmail.com, ";
+$slack_username = "@Halton, ";
+$biostack = "Drug development, ";
+$twitter_username = "@Halton, ";
 $ham_distance=ham($slack_username, $twitter_username);
-print "$name, ", "$email, ", "$slack_username, ", "$biostack, ", "$twitter_username ", "$ham_distance";
+print $name.$email.$slack_username.$biostack.$twitter_username.$ham_distance;

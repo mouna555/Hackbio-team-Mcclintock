@@ -17,4 +17,4 @@ userTwitter = '@LateefahKareem'
 userBiostack = 'Data analytics and Vaccine informatics'
 ham_distance=str(name_loop(userSlack, userTwitter))
 
-print(userName+','+userMail+','+userSlack+','+userBiostack+','+userTwitter+','+ham_distance)
+print(userName+', '+userMail+', '+userSlack+', '+userBiostack+', '+userTwitter+', '+ham_distance)

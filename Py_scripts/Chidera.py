@@ -13,4 +13,4 @@ def name_loop(str_3, str_5):
             h_distance += 1
     return h_distance    
 
-print(name+','+email+','+slack_username+','+biostack+','+twitter_handle+','+str(name_loop(slack_username, twitter_handle)))
+print(name+', '+email+', '+slack_username+', '+biostack+', '+twitter_handle+', '+str(name_loop(slack_username, twitter_handle)))

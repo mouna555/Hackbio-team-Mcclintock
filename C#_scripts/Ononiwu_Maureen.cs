@@ -30,6 +30,6 @@ public static void Main ()
     
  
    
-    Console.Write(Name+','+Email+','+Slack_username+','+Biostack+','+Twitter_Username+','+Hamming_Distance);
+    Console.Write(Name+','+' '+Email+','+' '+Slack_username+','+' '+Biostack+','+' '+Twitter_Username+','+' '+Hamming_Distance);
 }
 }

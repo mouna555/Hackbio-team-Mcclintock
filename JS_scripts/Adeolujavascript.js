@@ -6,7 +6,7 @@ var biostack = 'Drug Development';
 var twitterHandle = '@pharm_ay';
 
 
-console.log(name,',', email, ',', slackUsername,',', biostack,',', twitterHandle,',', hammingDistance(slackUsername, twitterHandle));
+console.log(name+', '+email, ', '+slackUsername+', '+biostack,', '+ twitterHandle,', '+hammingDistance(slackUsername, twitterHandle));
 }
 function hammingDistance(a, b){
     let result = 0
