@@ -17,5 +17,4 @@ $slack_username = "@Halton";
 $biostack = "Drug development";
 $twitter_username = "@Halton";
 $ham_distance=ham($slack_username, $twitter_username);
-$ham_distance;
 print "$name, ", "$email, ", "$slack_username, ", "$biostack, ", "$twitter_username ", "$ham_distance";
