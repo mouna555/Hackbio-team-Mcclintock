@@ -6,8 +6,8 @@ def hammingDist(Slack_username, Twitter_handle):
 		if(Slack_username[i] !=Twitter_handle[i]):
 			count += 1
 		i += 1
-	return countName = "Onyijen Ojei"
-	
+	return count
+
 Email = "ojei.onyijen@gmail.com"
 Slack_username = "@Ojei"
 Biostack = "Drug Development"
