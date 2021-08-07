@@ -7,36 +7,36 @@ cd Hackbio-team-Mcclintock
 
 echo "Name, Email, Slack_Username(with @), Biostack, Twitter_username, Hamming_Distance">TEAMMCCLINTOCK.csv
 
-for file in "$wd/R_scripts/*"
+for file in $(find $PWD/C#_scripts/*.R)
 do
 Rscript $file >> TEAMMCCLINTOCK.csv
 done
 
-for file in "$wd/Py_scripts/*"
+for file in $(find $PWD/Py_scripts/*.py)
 do
 python3 $file >> TEAMMCCLINTOCK.csv
 done
 
-for file in "$wd/PhP_scripts/*"
+for file in $(find $PWD/PhP_scripts/*.php)
 do
 php $file >> TEAMMCCLINTOCK.csv
 done
 
-for file in "$wd/perl_scripts/*"
+for file in $(find $PWD/perl_scripts/*.perl)
 do
 perl $file >> TEAMMCCLINTOCK.csv
 done
 
-for file in "$wd/JS_scripts/*"
+for file in $(find $PWD/JS_scripts/*.js)
 do
 node $file >> TEAMMCCLINTOCK.csv
 done
 
-for file in "$wd/C#_scripts/*.cs"
+for file in $(find $PWD/C#_scripts/*.cs)
 do
 mcs $file
 done
-for file in "$wd/C#_scripts/*.exe"
+for file in $(find $PWD/C#_scripts/*.exe)
 do
 mono $file >> TEAMMCCLINTOCK.csv
 done
