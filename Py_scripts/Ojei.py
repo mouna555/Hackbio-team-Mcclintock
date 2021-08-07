@@ -7,7 +7,9 @@ def hammingDist(Slack_username, Twitter_handle):
 			count += 1
 		i += 1
 	return count
+
 Name = "Onyijen Ojei"	
+
 Email = "ojei.onyijen@gmail.com"
 Slack_username = "@Ojei"
 Biostack = "Drug Development"
