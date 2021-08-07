@@ -7,7 +7,7 @@ cd Hackbio-team-Mcclintock
 
 echo "Name, Email, Slack_Username(with @), Biostack, Twitter_username, Hamming_Distance">TEAMMCCLINTOCK.csv
 
-for file in $(find $PWD/C#_scripts/*.R)
+for file in $(find $PWD/R_scripts/*.R)
 do
 Rscript $file >> TEAMMCCLINTOCK.csv
 done
