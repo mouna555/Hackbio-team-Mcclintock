@@ -22,6 +22,11 @@ do
 php $file >> TEAMMCCLINTOCK.csv
 done
 
+for file in $(find $PWD/Bash_scripts/*.sh)
+do
+bash $file >> TEAMMCCLINTOCK.csv
+done
+
 for file in $(find $PWD/perl_scripts/*.perl)
 do
 perl $file >> TEAMMCCLINTOCK.csv
