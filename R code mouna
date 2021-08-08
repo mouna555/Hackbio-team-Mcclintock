@@ -4,5 +4,6 @@ email <- mounabouras6@gmail.com
 slack-user_name <- mouna
 twitter_name <- mounabouras
 biostack <- genomics 
+hamming_distance <- sum(slack_username != twitter_username)
 #Print out the value of the variables 
-name,email,slack_user_name,twitter_name,biostack
+name,email,slack_user_name,twitter_name,biostack,hamming_distance
