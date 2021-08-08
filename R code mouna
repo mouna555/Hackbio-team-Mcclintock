@@ -1,0 +1,8 @@
+#Assign the varaibles 
+name <- mouna 
+email <- mounabouras6@gmail.com
+slack-user_name <- mouna
+twitter_name <- mounabouras
+biostack <- genomics 
+#Print out the value of the variables 
+name,email,slack_user_name,twitter_name,biostack
